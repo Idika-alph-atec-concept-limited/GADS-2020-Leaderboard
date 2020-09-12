@@ -83,7 +83,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:padding="10dp"
-            android:text="@string/first_name" />
+            android:hint="@string/first_name" />
 
         <View
             android:layout_width="0dp"
@@ -102,7 +102,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:padding="10dp"
-            android:text="@string/last_name" />
+            android:hint="@string/last_name" />
     </LinearLayout>
 
     <EditText
@@ -114,7 +114,18 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:padding="10dp"
-        android:text="@string/email_address" />
+        android:hint="@string/email_address" />
+
+    <EditText
+        android:id="@+id/edtTrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:background="#fff"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:hint="@string/track" />
 
     <EditText
         android:id="@+id/gitHub"
@@ -125,7 +136,7 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:padding="10dp"
-        android:text="@string/project_on_github_link" />
+        android:hint="@string/project_on_github_link" />
 
     <Button
         android:id="@+id/submitBtn"
